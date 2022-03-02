@@ -14,7 +14,7 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-//these are the addresses of my sensory you need to change them fitting to yourse
+//these are the addresses of my sensory you need to change them fitting to yours
 uint8_t sensor1[8] = { 0x28, 0x96, 0x1C, 0x29, 0x00, 0x00, 0x80, 0x2F };
 uint8_t sensor2[8] = { 0x28, 0x1D, 0x50, 0x40, 0x0D, 0x00, 0x00, 0x6A };
 
